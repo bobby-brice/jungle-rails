@@ -29,9 +29,12 @@
             TOTAL:
           </th>
           <th>
+            <%total = 0.00 %>
             <% @order.line_items.each do |item| %>
-              <%= item.total_price_cents / 100 %>
+
+              <% total += item.total_price_cents / 100.0 %>
             <% end %>
+            <%= total %>
           </th>
         </tr>
       </tfoot>
