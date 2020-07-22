@@ -1,7 +1,10 @@
 class ProductsController < ApplicationController
 
   def index
-    @products = Product.all.order(created_at: :desc)
+    #uses MODEL
+    @products = Product.all.order(created_at: :desc) #implicitly renders :index
+    # VIEW
+    # render: index
   end
 
   def show

@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
-
+  # same as --> get '/' => 'products#index'
+  # root (homepage) to  some controller -  perform an action
+  # get '/' => {controller: 'products', action: 'index'}
   root to: 'products#index'
+  
 
   resources :products, only: [:index, :show]
   resources :categories, only: [:show]
