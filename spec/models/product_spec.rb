@@ -7,7 +7,7 @@ RSpec.describe Product, type: :model do
       category = Category.new(name: "Electronics")
       product = Product.new(name: "Drone", price: 100, quantity: 1, category: category)
       expect(product).to be_valid
-      product.errors.full_messages
+      expect(product.errors.full_messages).to eq []
     end
 
     it 'validates whether product name is valid' do
