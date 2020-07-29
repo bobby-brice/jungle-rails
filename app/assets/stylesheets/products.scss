@@ -84,3 +84,10 @@ main section.products-show {
     }
   }
 }
+
+.container form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+}
