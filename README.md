@@ -27,9 +27,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Final Product
 
-!["Initial Login Page"]()
-!["User Home Page"]()
-!["Create a Quiz"]()
-!["Take a Quiz"]()
-!["Quiz Results"]()
-!["Users Scoreboard"]()
+!["Home Page"](https://github.com/bobby-brice/jungle-rails/blob/master/app/assets/docs/homepage.png)
+!["Product Details"](https://github.com/bobby-brice/jungle-rails/blob/master/app/assets/docs/details.png)
+!["Admin Page"](https://github.com/bobby-brice/jungle-rails/blob/master/app/assets/docs/admin-products.png)
+!["Add New Product"](https://github.com/bobby-brice/jungle-rails/blob/master/app/assets/docs/new-product.png)
